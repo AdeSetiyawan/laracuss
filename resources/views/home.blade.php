@@ -49,6 +49,26 @@
             </div>
           </nav>
           
+          <section class="container hero">
+                <div class="row align-items-center h-100">
+                    <div class="col-12 col-lg-6">
+                        <h1>
+                            Selamat Datang <br>
+                            Forum Komunitas 
+                        </h1>
+                        <p class="mb-4">
+                            Forum Komunitas untuk diskusi, berbagi dan terkoneksi
+                        </p>
+                        <a href="#" class="btn btn-primary me-2 mb-2 mb-lg-0">Mendaftar</a>
+                        <a href="#" class="btn btn-secondary mb-2 mb-lg-0">Gabung Diksusi</a>
+                    </div>
+                    <div class="col-12 col-lg-6 h-315px order-first order-lg-last mb-3 mb-lg-0">
+                        <img class="hero-image float-lg-end" src="{{url('assets/images/heroimage.png')}}" alt="">
+                    </div>
+                </div>
+          </section>
+
+
           <script src="https://code.jquery.com/jquery-3.7.0.slim.min.js" integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE=" crossorigin="anonymous"></script>
     </body>
 </html>
